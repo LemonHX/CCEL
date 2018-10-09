@@ -21,13 +21,5 @@ int main(){
     lambda_free(ado);
     lambda_free(lamad);
 
-
-    promise(int,val);
-    promise_init(val);
-    promise_set(val,22);
-    typeof(promise_val->data) ppp = promise_get(promise_val);
-    //promise_free(promise_val);
-    // free(val);
-    printf("current status is %d,and ppp is %d\n",promise_val->status,ppp);
     return 0;
 }
