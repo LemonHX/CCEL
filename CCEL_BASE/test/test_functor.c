@@ -1,4 +1,4 @@
-#include "CCEL_FUNCTOR.h"
+#include "../CCEL_FUNCTOR.h"
 
 int main(){
     functor_define(ITI,int,->,int);
